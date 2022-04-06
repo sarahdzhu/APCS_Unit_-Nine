@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SavingsAccountTest {
 
 
-/*
+
     @Test
     public void testDefaultConstructor() {
         SavingsAccount sa1 = new SavingsAccount(0.025);
@@ -53,5 +53,5 @@ class SavingsAccountTest {
         assertEquals(25, sa1.getBalance());
     }
 
- */
+
 }
