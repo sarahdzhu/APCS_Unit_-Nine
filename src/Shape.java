@@ -34,6 +34,11 @@ public class Shape {
 
     public String toString(){
         return "Shape is "+ color + " and filled is "+ filled;
+
+    }
+
+    public double getArea(){
+        return 0.0;
     }
 }
 
