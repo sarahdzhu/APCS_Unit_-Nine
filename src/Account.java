@@ -12,13 +12,17 @@ public class Account
         this.balance = balance;
     }
 
+
+
+public boolean equals(Object obj){
+        Account b= (Account) obj;
+        return(( this.balance== b.balance) && (this.name.equals(b.balance)));
+}
+
+
     public String toString() {
         return name + ", " + balance;
     }
-
-
-
-
 
 }
 
